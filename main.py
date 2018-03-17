@@ -11,7 +11,7 @@ connection = None
 
 def establish_conn():
     global connection
-    engine = create_engine('mysql+mysqldb://root:4bilBDjxL2L8gdN3@35.199.11.114/TECHBUDDY_DB')
+    engine = create_engine('mysql+mysqldb://root:abcdxyz@abcdxyz/TECHBUDDY_DB')
     connection = engine.connect()
 
 def query(query_string):
